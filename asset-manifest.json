@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/FitPeoAssignment/static/css/main.4005af22.css",
+    "main.css": "/FitPeoAssignment/static/css/main.adb3258a.css",
     "main.js": "/FitPeoAssignment/static/js/main.c3086242.js",
     "static/js/453.da13c7b9.chunk.js": "/FitPeoAssignment/static/js/453.da13c7b9.chunk.js",
     "static/media/logo.png": "/FitPeoAssignment/static/media/logo.2925bbac56405f9a44b8.png",
     "static/media/logo.svg": "/FitPeoAssignment/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/FitPeoAssignment/index.html",
-    "main.4005af22.css.map": "/FitPeoAssignment/static/css/main.4005af22.css.map",
+    "main.adb3258a.css.map": "/FitPeoAssignment/static/css/main.adb3258a.css.map",
     "main.c3086242.js.map": "/FitPeoAssignment/static/js/main.c3086242.js.map",
     "453.da13c7b9.chunk.js.map": "/FitPeoAssignment/static/js/453.da13c7b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4005af22.css",
+    "static/css/main.adb3258a.css",
     "static/js/main.c3086242.js"
   ]
 }
