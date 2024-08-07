@@ -1,7 +1,7 @@
 {
   "name": "fitpeoapp",
   "version": "0.1.0",
-  "homepage": "https://tyagisourabh039.github.io/FitPeoAssignment/",
+  "homepage": "https://tyagisourabh039.github.io/FitPeoAssignment",
   "private": true,
   "dependencies": {
     "@emotion/react": "latest",
