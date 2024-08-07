@@ -1,13 +1,13 @@
-.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tick {
+.MuiChartsAxis-tick {
     stroke: transparent !important;
 }
-.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line {
+.MuiChartsAxis-line {
     stroke: transparent !important;
 }
 .css-195sd4n-MuiChartsGrid-line {
     stroke: #bdbdbd24 !important;
 }
-.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tickLabel {
+.MuiChartsAxis-tickLabel {
     font-weight: 400 !important;
     font-size: 0.75rem !important;
     fill: #fff !important;
