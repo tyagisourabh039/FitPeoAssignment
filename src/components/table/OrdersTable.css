@@ -1,0 +1,62 @@
+.table-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:1px;
+    height: 60px
+}
+.table-name{
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    color:white;
+    margin-left:20px;
+    margin-right: 20px;
+  }
+  
+  td, th {
+    border-bottom: 1px solid #535050a7;
+    text-align: left;
+    padding: 8px;
+  } 
+
+
+  .customer{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+  }
+  .customer-name{
+    font-size: medium;
+    margin-left: 10px;
+  }
+  .delivered{
+    background-color: #03975ebb;
+    color:#04d383;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 2px 10px;
+  }
+  .cancelled{
+    background-color: rgba(255, 0, 0, 0.354);
+    color:#eb6d6d;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 2px 10px;
+  }
+  .pending{
+    background-color: rgba(255, 0, 0, 0.354);
+    color:#eb6d6d;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 2px 10px;
+  }
+  

@@ -1,0 +1,67 @@
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tick {
+    stroke: transparent !important;
+}
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line {
+    stroke: transparent !important;
+}
+.css-195sd4n-MuiChartsGrid-line {
+    stroke: #bdbdbd24 !important;
+}
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tickLabel {
+    font-weight: 400 !important;
+    font-size: 0.75rem !important;
+    fill: #fff !important;
+}
+.chart-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:1px;
+    height: 60px
+}
+.chart-name{
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.chart-dropdown{
+    position: relative;
+    color: #fff;
+    margin: 30px;
+    width:100px;
+    height:30px;
+    background-color: rgb(121, 113, 113);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.listItems{
+    position: absolute;
+    top:35px;
+    width:100px;
+    border-radius: 5px;
+    background-color: rgb(121, 113, 113);
+    z-index:5;
+}
+.listItems li{
+    list-style-type: none;
+    text-align: center;
+    z-index:5;
+}
+.listItems li:hover{
+  background-color: rgba(207, 207, 209, 0.368);
+  z-index:5;
+}
+.show-none{
+    display: none;
+}
+.overlay{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: 3;
+}

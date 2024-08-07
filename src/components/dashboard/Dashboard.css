@@ -1,0 +1,132 @@
+.dashboard{
+    width:100%;
+    min-height:100vh;
+    background-color:black;
+}
+.heading{
+    color:white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.dashboard-main{
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-columns: 62% 35%;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+@media screen and (max-width:950px) {
+    .dashboard-main{
+    grid-template-columns:auto;
+    }
+}
+
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: inherit;
+    justify-content: space-between;
+    height:max-content;
+}
+.basket-icon{
+    color:rgb(0, 136, 255);
+    font-size: 35px !important;
+}
+.delivered-icon{
+    color:#06965f;
+    font-size: 35px !important
+}
+.cancelled-icon{
+    color:red;
+    font-size: 35px !important
+}
+.revenue-icon{
+    color:rgb(255, 0, 195);
+    font-size: 35px !important
+}
+.net-profit{
+    border-radius: 5px;
+    background-color:rgb(23 25 35);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width:500px) {
+    .net-profit{
+        flex-direction: column;
+    }
+}
+
+.chart{
+    height:300px;
+    border-radius: 5px;
+    background-color:rgb(23 25 35);
+}
+.show-case{
+    height:300px;
+    border-radius: 5px;
+    background-color:rgb(23 25 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.target-icon{
+    color:rgb(255, 77, 0);
+    font-size: 35px !important 
+}
+.dish-icon{
+    color:#7295fd;
+    font-size: 35px !important 
+}
+.menu-icon{
+    color:rgb(4, 166, 194);
+    font-size: 35px !important 
+}
+.recent-orders{
+    width:100%;
+    overflow: scroll;
+    border-radius: 5px;
+    background-color:rgb(23 25 35);
+}
+.feedbacks{
+    border-radius: 5px;
+    background-color:rgb(23 25 35);
+}
+.customer-feedback-heading{
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.feedback-container{
+    height:400px;
+    overflow-y: scroll;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background-color:rgb(23 25 35);
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background:#fff;
+    height:10px;
+    border-radius: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

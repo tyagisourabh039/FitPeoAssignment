@@ -1,0 +1,23 @@
+.user{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+  }
+  .user-name{
+    font-size: medium;
+    margin-left: 10px;
+    color:white;
+  }
+  .user-message{
+    font-size: 14px;
+    display: block;
+    align-self:left;
+    text-align:left;
+    line-height: 20px;
+    color: rgba(223, 219, 219, 0.769);
+    margin:0;
+    padding: 0;
+  }
+  .line{
+    border-color:black;
+  }

@@ -1,0 +1,35 @@
+.showcase-container{
+    width:90%;
+    height:30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.showcase-card{
+    width: fit-content;
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+.showcase-text{
+    color:white;
+    font-size: 20px;
+    margin-left:10px;
+}
+.showcase-icon-container{
+    border-radius: 50%;
+    width:70px;
+    height:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.show-more{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: rgb(96, 93, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
