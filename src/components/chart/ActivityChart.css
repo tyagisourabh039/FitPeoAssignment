@@ -12,6 +12,10 @@
     font-size: 0.75rem !important;
     fill: #fff !important;
 }
+.MuiChartsGrid-horizontalLine{
+    fill: #b2aeae !important; 
+    stroke: #bdbdbd24 !important;
+}
 .chart-header{
     display: flex;
     justify-content: space-between;
